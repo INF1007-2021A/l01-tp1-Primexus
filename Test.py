@@ -1,9 +1,6 @@
-n = int(input("Enter a number : "))
-if n % 3 == 0:
-    if n % 5 == 0:
-        print("fizzbuzz")
-    else:
-        print("fizz")
-else:
-    if n % 5 == 0:
-        print("buzz")
+import math
+angle = 90
+z = complex(math.cos(angle), math.sin(angle))
+
+
+print(type(z))

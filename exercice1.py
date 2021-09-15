@@ -3,15 +3,12 @@ def fizzBuzz(n):
     #  Assigner ensuite la valeur à la variable resultat
     if n % 3 == 0:
         if n % 5 == 0:
-            type1 = "fizzbuzz"
-            return type1
+            print("fizzbuzz")
         else:
-            type3 = "fizz"
-            return type3
+            print("fizz")
     else:
         if n % 5 == 0:
-            type2 = "buzz"
-            return type2
+            print("buzz")
     resultat = n
     return resultat
 
